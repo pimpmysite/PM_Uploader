@@ -402,7 +402,7 @@ var wpWidgets
         wpWidgets.save = function (widget, del, animate, order) {
             wpWidgets.saveOrg(widget, del, animate, order)
             if (widget.find('input.add_new').val()) {
-                widget.find('.upload-container').uploader()             
+                widget.find('.pm-upload-container').uploader()             
             }
         }
         
